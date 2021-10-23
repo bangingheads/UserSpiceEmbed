@@ -4,6 +4,8 @@ This plugin helps generate dynamic meta data tags for SEO and embeds like Discor
 
 UserSpice can be downloaded from their [website](https://userspice.com/) or on [GitHub](https://github.com/mudmin/UserSpice5)
 
+This plugin requires UserSpice 5.3.7+ as the hooks it uses were added in that patch.
+
 ## Setting Up
 
 1. Copy the embed plugin folder from inside the repo into /usersc/plugins/
