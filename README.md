@@ -25,6 +25,10 @@ You can override the page title or description using the $embedTitle and $embedD
 
 This allows you to dynamically set your meta title and/or description dynamically based on the title of the page.
 
+## Troubleshooting
+
+This plugin requires write permissions to the usersc/includes folder. Please make sure it can edit the usersc/includes/head_tags.php as well as create a backup of the file. You can manually update fields in this file to match the one in files/head_tags.php of the plugin if you would like instead.
+
 ## Questions
 
 Any issues? Feel free to open an issue on Github or make a Pull Request.
