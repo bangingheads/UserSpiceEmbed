@@ -88,7 +88,7 @@ if($check > 0){
 			 fwrite($fp, "<?php" . "\n");
 			 fwrite($fp, "/*" . "\n");
 			 fwrite($fp, "This file has been edited by the embed plugin." . "\n");
-			 fwrite($fp, "You can file your old head_tags.php as head_tags_backup.php." . "\n");
+			 fwrite($fp, "You can find your old head_tags.php as head_tags_backup.php." . "\n");
 			 fwrite($fp, "\n");
 			 fwrite($fp, "If you deactivate the plugin it will be reverted to the backup." . "\n");
 			 fwrite($fp, "*/" . "\n");

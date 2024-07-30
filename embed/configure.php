@@ -32,7 +32,7 @@ if(!empty($_POST['plugin_embed'])){
             <?php 
             if ($embedSettings->copy_file) {
               if (strpos(file_get_contents($abs_us_root.$us_url_root.'usersc/includes/head_tags.php'), "getPageDescription()") === false) {
-                echo "There was an error editing your head tags file due to file permissions or it containing php content. Please manually edit it to make title and description tags match users/plugins/files/head_tags.php<br><br>";
+                echo "There was an error editing your head tags file due to file permissions or it containing php content. Please manually edit it to make title and description tags match usersc/plugins/embed/files/head_tags.php<br><br>";
               } else {
                 $db->update("embed_settings", 1, ["copy_file"=>0]);
               }

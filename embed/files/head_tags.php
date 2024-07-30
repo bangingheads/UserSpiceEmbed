@@ -1,6 +1,6 @@
 <!--
 This file comes from the embed plugin.
-You can file your old head_tags.php as head_tags_backup.php.
+You can find your old head_tags.php as head_tags_backup.php.
 
 If you deactivate the plugin it will be reverted to the backup.
 -->
