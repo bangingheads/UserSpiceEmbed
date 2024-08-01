@@ -1,9 +1,11 @@
-<!--
+<?php
+/*
 This file comes from the embed plugin.
 You can find your old head_tags.php as head_tags_backup.php.
 
 If you deactivate the plugin it will be reverted to the backup.
--->
+*/
+?>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
